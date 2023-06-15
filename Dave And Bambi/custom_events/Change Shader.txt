@@ -1,0 +1,4 @@
+Changes the shader in a specified camera.
+
+Value 1: Shader name.
+Value 2: Yeah but to what camera.

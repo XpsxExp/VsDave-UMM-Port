@@ -1,0 +1,6 @@
+The LUA tween functions but as an event.
+Also supports number tweening.
+
+Value 1: Tween type. (X, Y, Angle, Alpha, Zoom, Color, Number)
+Value 2: Tag, var, value, duration, ease.
+Must be separated by commas.

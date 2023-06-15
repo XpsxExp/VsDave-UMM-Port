@@ -1,0 +1,291 @@
+{
+	"song": {
+		"events": [
+			[
+				10666.6666666667,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.9",
+						""
+					]
+				]
+			],
+			[
+				21333.3333333333,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.7",
+						""
+					]
+				]
+			],
+			[
+				53333.3333333334,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.9",
+						""
+					]
+				]
+			],
+			[
+				57333.3333333334,
+				[
+					[
+						"Set Default Camera Zoom",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				58666.6666666667,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.9",
+						""
+					]
+				]
+			],
+			[
+				62666.6666666667,
+				[
+					[
+						"Set Default Camera Zoom",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				64000,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.7",
+						""
+					]
+				]
+			],
+			[
+				84916.6666666667,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.8",
+						""
+					]
+				]
+			],
+			[
+				85333.3333333333,
+				[
+					[
+						"Set Default Camera Zoom",
+						"1.1",
+						""
+					],
+					[
+						"Polygonized Thing",
+						"",
+						""
+					]
+				]
+			],
+			[
+				95999.9999999999,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.9",
+						""
+					],
+					[
+						"Polygonized Thing",
+						"",
+						""
+					]
+				]
+			],
+			[
+				106583.333333333,
+				[
+					[
+						"Set Default Camera Zoom",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				109333.333333333,
+				[
+					[
+						"Set Default Camera Zoom",
+						"1.1",
+						""
+					],
+					[
+						"Polygonized Thing",
+						"",
+						""
+					]
+				]
+			],
+			[
+				117333.333333333,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.9",
+						""
+					],
+					[
+						"Polygonized Thing",
+						"",
+						""
+					]
+				]
+			],
+			[
+				122333.333333333,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.7",
+						""
+					]
+				]
+			],
+			[
+				122666.666666667,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.8",
+						""
+					]
+				]
+			],
+			[
+				128000,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.9",
+						""
+					]
+				]
+			],
+			[
+				133000,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.7",
+						""
+					]
+				]
+			],
+			[
+				133250,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.8",
+						""
+					]
+				]
+			],
+			[
+				138666.666666667,
+				[
+					[
+						"Set Default Camera Zoom",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				160000,
+				[
+					[
+						"Set Default Camera Zoom",
+						"1.1",
+						""
+					]
+				]
+			],
+			[
+				170666.666666667,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.7",
+						""
+					]
+				]
+			],
+			[
+				172000,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.8",
+						""
+					]
+				]
+			],
+			[
+				178666.666666667,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.7",
+						""
+					]
+				]
+			],
+			[
+				181333.333333334,
+				[
+					[
+						"Set Default Camera Zoom",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				202333.333333334,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.7",
+						""
+					]
+				]
+			],
+			[
+				202666.666666667,
+				[
+					[
+						"Change Character",
+						"dad",
+						"dave"
+					],
+					[
+						"Polygonized End",
+						"",
+						""
+					]
+				]
+			]
+		]
+	}
+}

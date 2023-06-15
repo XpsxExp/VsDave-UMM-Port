@@ -1,0 +1,4 @@
+Darkens the screen.
+
+Value 1: Alpha value.
+Value 2: Tween time.

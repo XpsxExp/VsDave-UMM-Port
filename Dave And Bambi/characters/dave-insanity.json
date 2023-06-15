@@ -1,0 +1,106 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle instance 10",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				16,
+				-5
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left instance 10",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				13,
+				8
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down instance 10",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-16,
+				22
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up instance 10",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-30,
+				2
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right instance 10",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				41,
+				10
+			],
+			"anim": "um",
+			"fps": 24,
+			"name": "um instance 10",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-21,
+				0
+			],
+			"anim": "scared",
+			"fps": 24,
+			"name": "scared instance 10",
+			"indices": []
+		}
+	],
+	"taunts": [
+		"hey",
+		"idle",
+		"idle",
+		"idle"
+	],
+	"no_antialiasing": false,
+	"image": "characters/dave/Dave_insanity_lol",
+	"position": [
+		0,
+		175
+	],
+	"healthicon": "dave-annoyed",
+	"flip_x": false,
+	"healthbar_colors": [
+		15,
+		95,
+		255
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4.00000000000001,
+	"scale": 1
+}

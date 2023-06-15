@@ -1,0 +1,4 @@
+Play sound but it's an event.
+
+Value 1: Sound file.
+Value 2: Volume.

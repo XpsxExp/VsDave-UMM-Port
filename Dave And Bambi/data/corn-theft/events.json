@@ -1,0 +1,181 @@
+{
+	"song": {
+		"events": [
+			[
+				98285.7142857143,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.1",
+						"add"
+					]
+				]
+			],
+			[
+				112000,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.1",
+						"add"
+					]
+				]
+			],
+			[
+				121142.857142857,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.1",
+						"subtract"
+					]
+				]
+			],
+			[
+				130857.142857143,
+				[
+					[
+						"Camera Flash",
+						"",
+						""
+					]
+				]
+			],
+			[
+				133571.428571429,
+				[
+					[
+						"Create Subtitle",
+						"Because he add me...",
+						"0.02,1,36"
+					],
+					[
+						"Set Default Camera Zoom",
+						"0.2",
+						"add"
+					],
+					[
+						"Darken Screen",
+						"0.6",
+						"1"
+					],
+					[
+						"Hide Strums",
+						"true",
+						""
+					]
+				]
+			],
+			[
+				135000,
+				[
+					[
+						"Create Subtitle",
+						"Why you add me...",
+						"0.02,1,36"
+					]
+				]
+			],
+			[
+				139428.571428572,
+				[
+					[
+						"Create Subtitle",
+						"I-",
+						"0.02,0.5,36"
+					]
+				]
+			],
+			[
+				140285.714285714,
+				[
+					[
+						"Create Subtitle",
+						"I don't care...",
+						"0.02,1,36"
+					]
+				]
+			],
+			[
+				141714.285714286,
+				[
+					[
+						"Create Subtitle",
+						"You want to",
+						"0.02,1,36"
+					]
+				]
+			],
+			[
+				143142.857142857,
+				[
+					[
+						"Create Subtitle",
+						"I'll block you",
+						"0.02,0.3,36"
+					]
+				]
+			],
+			[
+				143857.142857143,
+				[
+					[
+						"Create Subtitle",
+						"I'm never coming back again.",
+						"0.02,0.3,36"
+					]
+				]
+			],
+			[
+				147571.428571429,
+				[
+					[
+						"Create Subtitle",
+						"Bye Baa!",
+						"0.02,0.3,45"
+					],
+					[
+						"Hide Strums",
+						"false",
+						""
+					],
+					[
+						"Do Tween",
+						"Alpha",
+						"dadFadeIn,dad,0.857142857142857,linear"
+					],
+					[
+						"Do Tween",
+						"Alpha",
+						"darkenFade,darken,0,0.857142857142857,linear"
+					],
+					[
+						"Do Tween",
+						"Number",
+						"tooLazyToAddACheckToIgnoreThis,game.defaultCamZoom,game.defaultCamZoom + 0.2,0.857142857142857,linear"
+					]
+				]
+			],
+			[
+				148571.428571429,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.8",
+						"set"
+					],
+					[
+						"Set Property",
+						"dad.alpha",
+						"1"
+					],
+					[
+						"Camera Flash",
+						"",
+						""
+					]
+				]
+			]
+		]
+	}
+}

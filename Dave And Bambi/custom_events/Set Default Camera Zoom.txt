@@ -1,0 +1,4 @@
+Changes the current defaultCamZoom value.
+
+Value 1: Value.
+Value 2: Set, Add or Subtract. (Default is 'set')

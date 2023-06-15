@@ -1,0 +1,4 @@
+Changes the value of one of the shader's floats.
+
+Value 1: Tag.
+Value 2: Variable (needs to be in parenthesis), Value (needs to be in square brackets).

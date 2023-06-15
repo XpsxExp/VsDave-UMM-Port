@@ -1,0 +1,196 @@
+{
+	"song": {
+		"events": [
+			[
+				36000,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.9",
+						""
+					]
+				]
+			],
+			[
+				42000,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.8",
+						""
+					]
+				]
+			],
+			[
+				48000,
+				[
+					[
+						"Set Default Camera Zoom",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				60000,
+				[
+					[
+						"Set Default Camera Zoom",
+						"1.1",
+						""
+					]
+				]
+			],
+			[
+				61875,
+				[
+					[
+						"Change Character",
+						"dad",
+						"dave-angey"
+					],
+					[
+						"Set Property",
+						"bg3D.alpha",
+						"0.75"
+					],
+					[
+						"Play Sound",
+						"static",
+						"1"
+					]
+				]
+			],
+			[
+				62250,
+				[
+					[
+						"Change Character",
+						"dad",
+						"dave-insanity"
+					],
+					[
+						"Set Property",
+						"bg3D.alpha",
+						"0"
+					]
+				]
+			],
+			[
+				63750,
+				[
+					[
+						"Change Character",
+						"dad",
+						"dave-angey"
+					],
+					[
+						"Set Property",
+						"bg3D.alpha",
+						"0.75"
+					],
+					[
+						"Play Sound",
+						"static",
+						"1"
+					]
+				]
+			],
+			[
+				64125,
+				[
+					[
+						"Change Character",
+						"dad",
+						"dave-insanity"
+					],
+					[
+						"Set Property",
+						"bg3D.alpha",
+						"0"
+					]
+				]
+			],
+			[
+				66375,
+				[
+					[
+						"Play Animation",
+						"um",
+						"dad"
+					],
+					[
+						"Set Default Camera Zoom",
+						"0.8",
+						""
+					]
+				]
+			],
+			[
+				72000,
+				[
+					[
+						"Set Default Camera Zoom",
+						"1.1",
+						""
+					]
+				]
+			],
+			[
+				97500,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.9",
+						""
+					]
+				]
+			],
+			[
+				99000,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.8",
+						""
+					]
+				]
+			],
+			[
+				110250,
+				[
+					[
+						"Change Character",
+						"dad",
+						"dave-angey"
+					],
+					[
+						"Set Property",
+						"bg3D.alpha",
+						"1"
+					],
+					[
+						"Play Sound",
+						"static",
+						"1"
+					]
+				]
+			],
+			[
+				110625,
+				[
+					[
+						"Change Character",
+						"dad",
+						"dave-insanity"
+					],
+					[
+						"Play Animation",
+						"scared",
+						"dad"
+					]
+				]
+			]
+		]
+	}
+}

@@ -1,0 +1,266 @@
+{
+	"song": {
+		"events": [
+			[
+				10212.7659574468,
+				[
+					[
+						"Create Subtitle",
+						"I block you...",
+						"0.02,1,36"
+					],
+					[
+						"Darken Screen",
+						"0.6",
+						"1"
+					],
+					[
+						"Camera Flash",
+						"",
+						"0.5"
+					],
+					[
+						"Set Default Camera Zoom",
+						"0.1",
+						"add"
+					],
+					[
+						"Hide Strums",
+						"true",
+						""
+					]
+				]
+			],
+			[
+				13164.8936170213,
+				[
+					[
+						"Create Subtitle",
+						"You are monster...",
+						"0.02,1,36"
+					]
+				]
+			],
+			[
+				15000,
+				[
+					[
+						"Create Subtitle",
+						"You ruined my life!",
+						"0.02,1,36"
+					]
+				]
+			],
+			[
+				17872.3404255319,
+				[
+					[
+						"Create Subtitle",
+						"Moldy I swear to god I'll block you",
+						"0.02,1,36"
+					]
+				]
+			],
+			[
+				19787.2340425532,
+				[
+					[
+						"Create Subtitle",
+						"FOREVER.",
+						"0.02,0.5,60"
+					]
+				]
+			],
+			[
+				20425.5319148936,
+				[
+					[
+						"Darken Screen",
+						"0",
+						"1"
+					],
+					[
+						"Camera Flash",
+						"",
+						""
+					],
+					[
+						"Set Default Camera Zoom",
+						"0.1",
+						"subtract"
+					],
+					[
+						"Hide Strums",
+						"false",
+						""
+					]
+				]
+			],
+			[
+				51063.8297872341,
+				[
+					[
+						"Set Property",
+						"darken.alpha",
+						"0.6"
+					],
+					[
+						"Camera Flash",
+						"",
+						""
+					],
+					[
+						"Set Default Camera Zoom",
+						"0.1",
+						"add"
+					]
+				]
+			],
+			[
+				61276.5957446809,
+				[
+					[
+						"Set Property",
+						"darken.alpha",
+						"0"
+					],
+					[
+						"Camera Flash",
+						"",
+						""
+					],
+					[
+						"Set Default Camera Zoom",
+						"0.1",
+						"subtract"
+					]
+				]
+			],
+			[
+				82021.2765957447,
+				[
+					[
+						"Create Subtitle",
+						"I'm trying to...",
+						"0.02,1.5,36"
+					],
+					[
+						"Hide Strums",
+						"true",
+						""
+					]
+				]
+			],
+			[
+				84255.3191489361,
+				[
+					[
+						"Create Subtitle",
+						"No I'm not trying help you...",
+						"0.02,1,36"
+					]
+				]
+			],
+			[
+				86489.3617021276,
+				[
+					[
+						"Create Subtitle",
+						"Because you go watch me...",
+						"0.02,1,36"
+					]
+				]
+			],
+			[
+				88085.1063829787,
+				[
+					[
+						"Create Subtitle",
+						"Because...",
+						"0.02,1,36"
+					]
+				]
+			],
+			[
+				89202.1276595744,
+				[
+					[
+						"Create Subtitle",
+						"go watch me scribe me",
+						"0.02,1,36"
+					]
+				]
+			],
+			[
+				91196.8085106382,
+				[
+					[
+						"Create Subtitle",
+						"Whatever.",
+						"0.02,1,45"
+					],
+					[
+						"Hide Strums",
+						"false",
+						""
+					]
+				]
+			],
+			[
+				91914.8936170212,
+				[
+					[
+						"Darken Screen",
+						"0.4",
+						"1"
+					],
+					[
+						"Set Default Camera Zoom",
+						"0.3",
+						"add"
+					]
+				]
+			],
+			[
+				95744.6808510638,
+				[
+					[
+						"Change Shader",
+						"blockedGlitch",
+						"camHUD"
+					],
+					[
+						"Darken Screen",
+						"0.7",
+						"0.638297872340426"
+					]
+				]
+			],
+			[
+				97021.2765957446,
+				[
+					[
+						"Change Shader",
+						"null",
+						"camHUD"
+					],
+					[
+						"Set Property",
+						"darken.alpha",
+						"0"
+					],
+					[
+						"Camera Flash",
+						"",
+						"0.5"
+					],
+					[
+						"Set Default Camera Zoom",
+						"0.3",
+						"subtract"
+					]
+				]
+			]
+		]
+	}
+}

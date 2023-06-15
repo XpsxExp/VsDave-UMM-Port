@@ -1,0 +1,4 @@
+Flashes camGame.
+
+Value 1: Color. (Default is WHITE)
+Value 2: Duration (Default is 1)

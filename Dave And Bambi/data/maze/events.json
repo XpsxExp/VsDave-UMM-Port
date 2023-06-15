@@ -1,0 +1,266 @@
+{
+	"song": {
+		"events": [
+			[
+				61858.407079646,
+				[
+					[
+						"Create Subtitle",
+						"I mean...",
+						"0.02,1,36"
+					],
+					[
+						"Set Default Camera Zoom",
+						"0.2",
+						"add"
+					],
+					[
+						"Camera Flash",
+						"",
+						"0.5"
+					],
+					[
+						"Darken Screen",
+						"0.6",
+						"1"
+					],
+					[
+						"Hide Strums",
+						"true",
+						""
+					]
+				]
+			],
+			[
+				63185.8407079646,
+				[
+					[
+						"Create Subtitle",
+						"You can",
+						"0.02,0.7,36"
+					]
+				]
+			],
+			[
+				64247.7876106195,
+				[
+					[
+						"Create Subtitle",
+						"Play me...",
+						"0.02,1,36"
+					]
+				]
+			],
+			[
+				66106.1946902655,
+				[
+					[
+						"Create Subtitle",
+						"You don't?",
+						"0.02,1,36"
+					]
+				]
+			],
+			[
+				67831.8584070797,
+				[
+					[
+						"Create Subtitle",
+						"Never come back again.",
+						"0.02,1,60"
+					],
+					[
+						"Hide Strums",
+						"false",
+						""
+					]
+				]
+			],
+			[
+				70088.4955752213,
+				[
+					[
+						"Set Default Camera Zoom",
+						"set",
+						"0.8"
+					],
+					[
+						"Camera Flash",
+						"",
+						""
+					],
+					[
+						"Set Property",
+						"darken.alpha",
+						"0"
+					]
+				]
+			],
+			[
+				110442.477876106,
+				[
+					[
+						"Set Default Camera Zoom",
+						"add",
+						"0.2"
+					],
+					[
+						"Darken Screen",
+						"0.4",
+						"1"
+					]
+				]
+			],
+			[
+				111238.938053097,
+				[
+					[
+						"Create Subtitle",
+						"Fine!",
+						"0.02,0.5,36"
+					],
+					[
+						"Hide Strums",
+						"true",
+						""
+					]
+				]
+			],
+			[
+				112433.628318584,
+				[
+					[
+						"Create Subtitle",
+						"Anything you want",
+						"0.02,0.5,36"
+					]
+				]
+			],
+			[
+				113628.318584071,
+				[
+					[
+						"Create Subtitle",
+						"You play me?",
+						"0.02,1,36"
+					]
+				]
+			],
+			[
+				115088.495575221,
+				[
+					[
+						"Create Subtitle",
+						"Sure.",
+						"0.02,1,40"
+					]
+				]
+			],
+			[
+				116681.415929204,
+				[
+					[
+						"Create Subtitle",
+						"What you want to play?",
+						"0.02,1,40"
+					]
+				]
+			],
+			[
+				118141.592920354,
+				[
+					[
+						"Create Subtitle",
+						"You are bully me?",
+						"0.02,1,36"
+					]
+				]
+			],
+			[
+				119734.513274336,
+				[
+					[
+						"Create Subtitle",
+						"Never come back again.",
+						"0.02,1,60"
+					],
+					[
+						"Hide Strums",
+						"false",
+						""
+					]
+				]
+			],
+			[
+				120530.973451328,
+				[
+					[
+						"Darken Screen",
+						"1",
+						"0.530973451327434"
+					]
+				]
+			],
+			[
+				121061.946902655,
+				[
+					[
+						"Darken Screen",
+						"0.6",
+						"1"
+					],
+					[
+						"Set Default Camera Zoom",
+						"0.1",
+						"subtract"
+					],
+					[
+						"Camera Flash",
+						"",
+						"0.5"
+					],
+					[
+						"Spotlight",
+						"",
+						""
+					],
+					[
+						"Do Tween",
+						"Alpha",
+						"spotLightIn,spotLight,1,0.6,linear"
+					]
+				]
+			],
+			[
+				155044.247787611,
+				[
+					[
+						"Darken Screen",
+						"0",
+						"1"
+					],
+					[
+						"Spotlight",
+						"",
+						""
+					],
+					[
+						"Do Tween",
+						"Alpha",
+						"spotLightOut,spotLight,0,1,linear"
+					]
+				]
+			],
+			[
+				164840.166154958,
+				[
+					[
+						"Camera Flash",
+						"",
+						""
+					]
+				]
+			]
+		]
+	}
+}

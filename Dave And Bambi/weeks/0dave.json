@@ -1,0 +1,59 @@
+{
+	"storyName": "Dave's Fun Rapping Class!",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"Warmup",
+			"dave",
+			[
+				15,
+				95,
+				255
+			]
+		],
+		[
+			"House",
+			"dave",
+			[
+				15,
+				95,
+				255
+			]
+		],
+		[
+			"Insanity",
+			"dave-annoyed",
+			[
+				15,
+				95,
+				255
+			]
+		],
+		[
+			"Polygonized",
+			"dave-angey",
+			[
+				15,
+				95,
+				255
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "dave"
+}

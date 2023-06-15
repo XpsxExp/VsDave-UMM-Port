@@ -1,0 +1,5 @@
+Creates a subtitle.
+
+Value 1: Text.
+Value 2: Type Speed, Show Time, Size.
+Must be separated with commas.

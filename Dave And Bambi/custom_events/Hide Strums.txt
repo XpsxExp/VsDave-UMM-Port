@@ -1,0 +1,3 @@
+Hides the strums.
+
+Value 1: True or false.
