@@ -2,14 +2,16 @@ local theThingy = 0.88;
 local theFunny = 0;
 
 function onCreatePost()
+   luaDebugMode = true;
    addHaxeLibrary('FlxMath', 'flixel.math');
+   addHaxeLibrary('Std');
 
    setObjectOrder('healthBar', getObjectOrder('healthBarBG') - 1);
    setObjectOrder('timeBar', getObjectOrder('timeBarBG') - 1); setTimeBarColors('39FF14', '808080'); screenCenter('timeBar', 'x'); screenCenter('timeBarBG', 'x');
-   setProperty('timeTxt.y', getProperty('timeTxt.y') - 7);
+   setProperty('timeTxt.y', getProperty('timeTxt.y') - 3);
    
-   makeIcon('fakeP1', 0, getProperty('iconP1.y'), getProperty('boyfriend.healthIcon'), true);
    makeIcon('fakeP2', 0, getProperty('iconP2.y'), getProperty('dad.healthIcon'), false);
+   makeIcon('fakeP1', 0, getProperty('iconP1.y'), getProperty('boyfriend.healthIcon'), true);
    setProperty('iconP1.visible', false); setProperty('iconP2.visible', false);
 end
 
@@ -28,12 +30,9 @@ end
 
 function onBeatHit()
    theFunny = math.max(math.min(getProperty('healthBar.value'), 1.9), 0.1);
-   --Normal bounce.
+   
    setGraphicSize('fakeP1', getProperty('fakeP1.width') + (50 * (theFunny + 0.1)), getProperty('fakeP1.height') - (25 * theFunny));
    setGraphicSize('fakeP2', getProperty('fakeP2.width') + (50 * (2 - theFunny) + 0.1), getProperty('fakeP2.height') - (25 * ((2 - theFunny) + 0.1)));
-   --Five Nights icon bounce.
-   -- setGraphicSize('fakeP1', getProperty('fakeP1.width') + (50 * ((2 - theFunny) + 0.1))), getProperty('fakeP1.height') - (25 * ((2 - theFunny) + 0.1))), false);
-   -- setGraphicSize('fakeP2', getProperty('fakeP2.width') + (50 * theFunny)), getProperty('fakeP2.height') - (25 * theFunny)), false);
 end
 
 function changeState(icon, state)

@@ -1,0 +1,211 @@
+{
+	"song": {
+		"events": [
+			[
+				59191.616766467,
+				[
+					[
+						"Create Subtitle",
+						"I gonna block you!",
+						"0.02,0.6,36"
+					]
+				]
+			],
+			[
+				106257.48502994,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.2",
+						"add"
+					],
+					[
+						"Darken Screen",
+						"0.6",
+						"1"
+					],
+					[
+						"Hide Strums",
+						"true",
+						""
+					]
+				]
+			],
+			[
+				107155.688622754,
+				[
+					[
+						"Create Subtitle",
+						"I going you house",
+						"0.02,0.6,36"
+					]
+				]
+			],
+			[
+				108502.994011976,
+				[
+					[
+						"Create Subtitle",
+						"And I going you FALL",
+						"0.02,1.5,36"
+					]
+				]
+			],
+			[
+				110299.401197605,
+				[
+					[
+						"Create Subtitle",
+						"The bed your-",
+						"0.02,1,36"
+					]
+				]
+			],
+			[
+				111556.886227545,
+				[
+					[
+						"Create Subtitle",
+						"Your house!",
+						"0.02,1,36"
+					]
+				]
+			],
+			[
+				112904.191616766,
+				[
+					[
+						"Create Subtitle",
+						"Isaac...",
+						"0.02,0.5,36"
+					]
+				]
+			],
+			[
+				113712.574850299,
+				[
+					[
+						"Create Subtitle",
+						"Shut da fock up.",
+						"0.02,1.5,36"
+					]
+				]
+			],
+			[
+				115778.443113772,
+				[
+					[
+						"Create Subtitle",
+						"Stop use da focking...",
+						"0.02,2,36"
+					]
+				]
+			],
+			[
+				120718.562874251,
+				[
+					[
+						"Hide Strums",
+						"false",
+						""
+					],
+					[
+						"Darken Screen",
+						"0",
+						"1"
+					],
+					[
+						"Set Default Camera Zoom",
+						"0.2",
+						"subtract"
+					]
+				]
+			],
+			[
+				142275.449101796,
+				[
+					[
+						"Create Subtitle",
+						"Go to focking hell!",
+						"0.02,1,36"
+					]
+				]
+			],
+			[
+				157275.449101796,
+				[
+					[
+						"Create Subtitle",
+						"Ah oh I'm gonna break my",
+						"0.02,0.6,36"
+					]
+				]
+			],
+			[
+				158982.035928144,
+				[
+					[
+						"Create Subtitle",
+						"PHONE!",
+						"0.02,0.6,36"
+					]
+				]
+			],
+			[
+				159520.958083832,
+				[
+					[
+						"Change Character",
+						"dad",
+						"bambi-angey"
+					],
+					[
+						"Camera Flash",
+						"",
+						"0.25"
+					]
+				]
+			],
+			[
+				161676.646706587,
+				[
+					[
+						"Create Subtitle",
+						"Is you wanted the-",
+						"0.02,0.6,36"
+					]
+				]
+			],
+			[
+				162574.850299401,
+				[
+					[
+						"Create Subtitle",
+						"fucking phone?",
+						"0.02,0.6,36"
+					]
+				]
+			],
+			[
+				165538.922155689,
+				[
+					[
+						"Create Subtitle",
+						"HOLY SHIT!",
+						"0.02,1,60"
+					]
+				]
+			],
+			[
+				217185.628742515,
+				[
+					[
+						"Create Subtitle",
+						"You fucking liar Moldy!",
+						"0.02,0.6,36"
+					]
+				]
+			]
+		]
+	}
+}
