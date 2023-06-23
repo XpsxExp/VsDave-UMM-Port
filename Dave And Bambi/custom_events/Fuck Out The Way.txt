@@ -1,0 +1,4 @@
+Used in Splitathon.
+
+Value 1: Icon name, Switch to.
+Value 2: Flinged icon name.

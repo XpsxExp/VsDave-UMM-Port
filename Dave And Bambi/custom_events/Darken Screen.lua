@@ -2,7 +2,8 @@ function onCreate()
    makeLuaSprite('darken');
    makeGraphic('darken', screenWidth * 2, screenHeight * 2, '000000');
    screenCenter('darken');
-   addLuaSprite('darken',true);
+   setObjectCamera('darken', 'camHUD');
+   addLuaSprite('darken');
    setProperty('darken.alpha', 0);
 end
 

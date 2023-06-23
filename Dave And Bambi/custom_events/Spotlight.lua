@@ -4,12 +4,12 @@ local spotLightPart = false;
 function onCreate()
    luaDebugMode = true;
    makeLuaSprite('spotLight', 'spotLight');
-   setBlendMode('spotLight', 'ADD');
    setGraphicSize('spotLight', math.floor(getProperty('spotLight.width') * (getProperty('dad.frameWidth') / getProperty('spotLight.width') * spotLightScaler)), 0, false);
    updateHitbox('spotLight');
    setProperty('spotLight.alpha', 0);
    setOrigin('spotLight', getProperty('spotLight.origin.x'), getProperty('spotLight.origin.y') - (getProperty('spotLight.frameHeight') / 2));
    addLuaSprite('spotLight', true);
+   setBlendMode('spotLight', 'ADD');
    
    setPosition('spotLight', getGraphicMidpointX('dad') - (getProperty('spotLight.width') / 2), getGraphicMidpointY('dad') - (getProperty('spotLight.height') / 2));
 end
@@ -68,9 +68,11 @@ function updateSpotlight(bfSinging)
        var positionOffset = new FlxBasePoint();
    
        switch (game.]] .. curSinger .. [[.curCharacter) {
-	      case 'bambi' | 'bambi-angey':
+	      case 'bambi':
 	          positionOffset.x = -35;
 	          positionOffset.y = -90;
+		  case 'bambi-angey':
+		      positionOffset.y = 100;
 	   }
    
        var targetPosition = new FlxBasePoint(game.]] .. curSinger .. [[.getGraphicMidpoint().x - (game.getLuaObject('spotLight').width / 2) - positionOffset.x, game.]] .. curSinger .. [[.getGraphicMidpoint().y - (game.getLuaObject('spotLight').height / 2) - positionOffset.y);

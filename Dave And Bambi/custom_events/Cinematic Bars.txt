@@ -1,0 +1,5 @@
+This thing is only used in Recursed.
+Like what the fuck.
+
+Value 1: Time on screen.
+Value 2: Closeness.

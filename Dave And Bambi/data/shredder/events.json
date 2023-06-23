@@ -1,0 +1,571 @@
+{
+	"song": {
+		"events": [
+			[
+				19500,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.2",
+						"add"
+					],
+					[
+						"Camera Flash",
+						"",
+						"0.5"
+					],
+					[
+						"Darken Screen",
+						"0.6",
+						"1"
+					],
+					[
+						"Hide Strums",
+						"true",
+						""
+					],
+					[
+						"Create Subtitle",
+						"Oh my god...",
+						"0.02,0.3,36"
+					]
+				]
+			],
+			[
+				20475,
+				[
+					[
+						"Create Subtitle",
+						"I fucking hate you",
+						"0.02,0.6,36"
+					]
+				]
+			],
+			[
+				22200,
+				[
+					[
+						"Create Subtitle",
+						"Fuck ahh, I hate you so much...",
+						"0.02,0.6,36"
+					]
+				]
+			],
+			[
+				24375,
+				[
+					[
+						"Create Subtitle",
+						"Check your closet!",
+						"0.02,0.6,36"
+					]
+				]
+			],
+			[
+				25650,
+				[
+					[
+						"Create Subtitle",
+						"Check your closet!",
+						"0.02,0.6,36"
+					]
+				]
+			],
+			[
+				26700,
+				[
+					[
+						"Create Subtitle",
+						"Or else",
+						"0.02,0.6,36"
+					]
+				]
+			],
+			[
+				27075,
+				[
+					[
+						"Create Subtitle",
+						"Imma kill you like rodeo",
+						"0.02,0.6,36"
+					]
+				]
+			],
+			[
+				28800,
+				[
+					[
+						"Create Subtitle",
+						"Trash.",
+						"0.02,0.6,60"
+					]
+				]
+			],
+			[
+				29475,
+				[
+					[
+						"Create Subtitle",
+						"Like this",
+						"0.02,0.6,60"
+					]
+				]
+			],
+			[
+				30600,
+				[
+					[
+						"Create Subtitle",
+						"Grrrrr!",
+						"0.02,0.6,60"
+					]
+				]
+			],
+			[
+				31875,
+				[
+					[
+						"Create Subtitle",
+						"Check your closet motherfuckers",
+						"0.02,0.6,60"
+					]
+				]
+			],
+			[
+				36300,
+				[
+					[
+						"Create Subtitle",
+						"Check your closet mothafuckas!",
+						"0.02,0.6,60"
+					]
+				]
+			],
+			[
+				38400,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.2",
+						"subtract"
+					],
+					[
+						"Camera Flash",
+						"",
+						""
+					],
+					[
+						"Darken Screen",
+						"0",
+						"1"
+					],
+					[
+						"Hide Strums",
+						"false",
+						""
+					]
+				]
+			],
+			[
+				58800,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.2",
+						"add"
+					],
+					[
+						"Darken Screen",
+						"0.6",
+						"1"
+					],
+					[
+						"Change Shader",
+						"blockedGlitch",
+						"camHUD"
+					]
+				]
+			],
+			[
+				60000,
+				[
+					[
+						"Change Shader",
+						"null",
+						"camHUD"
+					],
+					[
+						"Set Default Camera Zoom",
+						"0.2",
+						"subtract"
+					],
+					[
+						"Darken Screen",
+						"0",
+						"1"
+					]
+				]
+			],
+			[
+				61200,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.2",
+						"add"
+					],
+					[
+						"Darken Screen",
+						"0.6",
+						"1"
+					],
+					[
+						"Change Shader",
+						"blockedGlitch",
+						"camHUD"
+					]
+				]
+			],
+			[
+				62400,
+				[
+					[
+						"Change Shader",
+						"null",
+						"camHUD"
+					],
+					[
+						"Set Default Camera Zoom",
+						"0.2",
+						"subtract"
+					],
+					[
+						"Darken Screen",
+						"0",
+						"1"
+					]
+				]
+			],
+			[
+				68400,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.2",
+						"add"
+					],
+					[
+						"Darken Screen",
+						"0.6",
+						"1"
+					],
+					[
+						"Change Shader",
+						"blockedGlitch",
+						"camHUD"
+					]
+				]
+			],
+			[
+				69600,
+				[
+					[
+						"Change Shader",
+						"null",
+						"camHUD"
+					],
+					[
+						"Set Default Camera Zoom",
+						"0.2",
+						"subtract"
+					],
+					[
+						"Darken Screen",
+						"0",
+						"1"
+					]
+				]
+			],
+			[
+				70800,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.2",
+						"add"
+					],
+					[
+						"Darken Screen",
+						"0.6",
+						"1"
+					],
+					[
+						"Change Shader",
+						"blockedGlitch",
+						"camHUD"
+					]
+				]
+			],
+			[
+				72000,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.7",
+						"set"
+					],
+					[
+						"Change Shader",
+						"null",
+						"camHUD"
+					],
+					[
+						"Darken Screen",
+						"0",
+						"1"
+					]
+				]
+			],
+			[
+				74400,
+				[
+					[
+						"Switch Strums",
+						"",
+						""
+					]
+				]
+			],
+			[
+				75600,
+				[
+					[
+						"Change Character",
+						"dad",
+						"bambi-shredder"
+					],
+					[
+						"Play Animation",
+						"takeout",
+						"dad"
+					]
+				]
+			],
+			[
+				76800,
+				[
+					[
+						"Guitar Hero Section",
+						"true",
+						""
+					],
+					[
+						"Camera Flash",
+						"",
+						"0.5"
+					]
+				]
+			],
+			[
+				95700,
+				[
+					[
+						"Switch Strums",
+						"",
+						""
+					]
+				]
+			],
+			[
+				96000,
+				[
+					[
+						"Boyfriend Spot",
+						"",
+						""
+					]
+				]
+			],
+			[
+				115200,
+				[
+					[
+						"Guitar Hero Section",
+						"false",
+						""
+					],
+					[
+						"Change Shader",
+						"blockedGlitch",
+						"camHUD"
+					],
+					[
+						"Hide Strums",
+						"true",
+						""
+					],
+					[
+						"Set Default Camera Zoom",
+						"0.2",
+						"add"
+					]
+				]
+			],
+			[
+				116400,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.1",
+						"add"
+					],
+					[
+						"Change Shader",
+						"",
+						"camHUD"
+					]
+				]
+			],
+			[
+				117600,
+				[
+					[
+						"Change Shader",
+						"blockedGlitch",
+						"camHUD"
+					],
+					[
+						"Set Default Camera Zoom",
+						"0.1",
+						"add"
+					]
+				]
+			],
+			[
+				118800,
+				[
+					[
+						"Change Shader",
+						"",
+						"camHUD"
+					],
+					[
+						"Set Default Camera Zoom",
+						"0.1",
+						"add"
+					]
+				]
+			],
+			[
+				120000,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.1",
+						"add"
+					],
+					[
+						"Change Shader",
+						"blockedGlitch",
+						"camHUD"
+					]
+				]
+			],
+			[
+				121200,
+				[
+					[
+						"Change Shader",
+						"",
+						"camHUD"
+					],
+					[
+						"Set Default Camera Zoom",
+						"0.1",
+						"add"
+					]
+				]
+			],
+			[
+				122400,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.1",
+						"add"
+					],
+					[
+						"Change Shader",
+						"blockedGlitch",
+						"camHUD"
+					]
+				]
+			],
+			[
+				123600,
+				[
+					[
+						"Change Shader",
+						"null",
+						"camHUD"
+					],
+					[
+						"Darken Screen",
+						"1",
+						"1"
+					],
+					[
+						"Set Default Camera Zoom",
+						"0.1",
+						"add"
+					]
+				]
+			],
+			[
+				124800,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.9",
+						"subtract"
+					],
+					[
+						"Camera Flash",
+						"",
+						""
+					],
+					[
+						"Hide Strums",
+						"false",
+						""
+					],
+					[
+						"Darken Screen",
+						"0",
+						"1"
+					]
+				]
+			],
+			[
+				145275,
+				[
+					[
+						"Create Subtitle",
+						"That's it!",
+						"0.02,0.6,60"
+					]
+				]
+			],
+			[
+				145950,
+				[
+					[
+						"Create Subtitle",
+						"That's it!",
+						"0.02,0.6,60"
+					]
+				]
+			]
+		]
+	}
+}

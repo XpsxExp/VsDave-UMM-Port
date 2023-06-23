@@ -1,0 +1,316 @@
+{
+	"song": {
+		"events": [
+			[
+				9300,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.2",
+						"add"
+					]
+				]
+			],
+			[
+				13200,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.2",
+						"subtract"
+					],
+					[
+						"Crazy Zooming",
+						"true",
+						""
+					]
+				]
+			],
+			[
+				22800,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.2",
+						"add"
+					],
+					[
+						"Crazy Zooming",
+						"false",
+						""
+					]
+				]
+			],
+			[
+				24000,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.2",
+						"subtract"
+					],
+					[
+						"Crazy Zooming",
+						"true",
+						""
+					]
+				]
+			],
+			[
+				37200,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.2",
+						"add"
+					]
+				]
+			],
+			[
+				37650,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.2",
+						"add"
+					]
+				]
+			],
+			[
+				38100,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.4",
+						"subtract"
+					]
+				]
+			],
+			[
+				43200,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.2",
+						"add"
+					]
+				]
+			],
+			[
+				62400,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.2",
+						"subtract"
+					],
+					[
+						"Crazy Zooming",
+						"false",
+						""
+					]
+				]
+			],
+			[
+				63600,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.2",
+						"add"
+					]
+				]
+			],
+			[
+				64800,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.2",
+						"subtract"
+					],
+					[
+						"Crazy Zooming",
+						"true",
+						""
+					]
+				]
+			],
+			[
+				81600,
+				[
+					[
+						"Crazy Zooming",
+						"false",
+						""
+					]
+				]
+			],
+			[
+				91200,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.2",
+						"add"
+					],
+					[
+						"Darken Screen",
+						"0.6",
+						"1"
+					],
+					[
+						"Hide Strums",
+						"true",
+						""
+					]
+				]
+			],
+			[
+				91275,
+				[
+					[
+						"Create Subtitle",
+						"Kill me, I want to die",
+						"0.02,2,36"
+					]
+				]
+			],
+			[
+				94650,
+				[
+					[
+						"Create Subtitle",
+						"Kick me, please senpai",
+						"0.02,1.5,36"
+					]
+				]
+			],
+			[
+				96900,
+				[
+					[
+						"Create Subtitle",
+						"Kicked meeeeeee",
+						"0.02,1,36"
+					]
+				]
+			],
+			[
+				99750,
+				[
+					[
+						"Create Subtitle",
+						"I going to leave.",
+						"0.02,0.5,36"
+					]
+				]
+			],
+			[
+				100500,
+				[
+					[
+						"Spotlight",
+						"",
+						""
+					],
+					[
+						"Camera Flash",
+						"",
+						"0.5"
+					],
+					[
+						"Do Tween",
+						"alpha",
+						"spotLightFade,spotLight,0.7,1,linear"
+					]
+				]
+			],
+			[
+				100800,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.2",
+						"subtract"
+					],
+					[
+						"Darken Screen",
+						"0",
+						"1"
+					],
+					[
+						"Hide Strums",
+						"false",
+						""
+					]
+				]
+			],
+			[
+				121650,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.4",
+						"add"
+					],
+					[
+						"Create Subtitle",
+						"AuuuuuuAAAAAAAAAAAAAAA-",
+						"0.02,0.3,36"
+					],
+					[
+						"Play Animation",
+						"scream",
+						"add"
+					],
+					[
+						"Camera Shake",
+						"camGame",
+						"0.015,0.6"
+					]
+				]
+			],
+			[
+				122400,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.4",
+						"subtract"
+					],
+					[
+						"Crazy Zooming",
+						"true",
+						""
+					],
+					[
+						"Camera Flash",
+						"",
+						"0.5"
+					],
+					[
+						"Spotlight",
+						"",
+						""
+					],
+					[
+						"Do Tween",
+						"alpha",
+						"spotLightAway,spotLight,0,1,linear"
+					]
+				]
+			],
+			[
+				160800,
+				[
+					[
+						"Crazy Zooming",
+						"false",
+						""
+					]
+				]
+			]
+		]
+	}
+}

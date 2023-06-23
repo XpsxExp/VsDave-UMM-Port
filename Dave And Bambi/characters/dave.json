@@ -1,70 +1,70 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "idle0",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "idle0"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				3,
 				13
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "left0",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left0"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-28,
 				18
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "down0",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down0"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-16,
 				22
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "up0",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "up0"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-30,
 				2
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "right0",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right0"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				8,
 				11
 			],
-			"anim": "hey",
+			"loop": false,
 			"fps": 24,
-			"name": "hey0",
-			"indices": []
+			"anim": "hey",
+			"indices": [],
+			"name": "hey0"
 		}
 	],
 	"taunts": [

@@ -1,0 +1,84 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Idle0"
+		},
+		{
+			"offsets": [
+				13,
+				-1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left0"
+		},
+		{
+			"offsets": [
+				36,
+				-6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down0"
+		},
+		{
+			"offsets": [
+				34,
+				14
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up0"
+		},
+		{
+			"offsets": [
+				64,
+				2
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right0"
+		}
+	],
+	"taunts": [
+		"idle",
+		"hey",
+		"idle",
+		"hey"
+	],
+	"no_antialiasing": true,
+	"image": "characters/festival/dave_festival_3d",
+	"position": [
+		-234,
+		-155
+	],
+	"healthicon": "dave-festival-3d",
+	"flip_x": false,
+	"healthbar_colors": [
+		97,
+		155,
+		193
+	],
+	"camera_position": [
+		0,
+		120
+	],
+	"sing_duration": 4.00000000000001,
+	"scale": 0.78301886792453
+}

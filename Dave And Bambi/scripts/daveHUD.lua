@@ -43,7 +43,11 @@ end
 function makeIcon(tag, x, y, image, isPlayer)
    local charTag = {[true] = 'boyfriend', [false] = 'dad'};
    makeLuaSprite(tag, nil, x, y);
-   loadGraphic(tag, 'icons/icon-' .. image, 150, 150);
+   if not getProperty(charTag[isPlayer] .. '.Custom') then
+      loadGraphic(tag, 'icons/icon-' .. image, 150, 150);
+   else
+      loadGraphic(tag, 'mods/multiplayer/characters/' .. getProperty(charTag[isPlayer] .. '.curCharacter') .. '/healthicon', 150, 150);
+   end
    addAnimation(tag, image, {0, 1}, 0, false);
    setProperty(tag .. '.antialiasing', getProperty(charTag[isPlayer] .. '.antialiasing'));
    setObjectCamera(tag, 'camHUD');

@@ -18,7 +18,7 @@ end
 
 function opponentNoteHit(noteIndex, noteData, noteType, isSustainNote)
    if leftSide and not isSustainNote then
-      if getPropertyFromGroup('notes', noteIndex, 'texture') == '3DNOTE_assets' or getPropertyFromGroup('notes', noteIndex, 'noteType') == 'NOTE_assets_Shape' then
+      if getPropertyFromGroup('notes', noteIndex, 'texture') == '3DNOTE_assets' or getPropertyFromGroup('notes', noteIndex, 'texture') == 'NOTE_assets_Shape' then
          createPopUp(0, 0, getPropertyFromGroup('notes', noteIndex, 'rating'), getProperty('combo'), '3D/')
 	  else
 	     createPopUp(0, 0, getPropertyFromGroup('notes', noteIndex, 'rating'), getProperty('combo'), '');
@@ -42,15 +42,23 @@ function createPopUp(x, y, rating, combo, style)
    setProperty(curRating .. '.acceleration.y', 550);
    setProperty(curRating .. '.velocity.y', getProperty(curRating .. '.velocity.y') - getRandomInt(140, 175));
    setProperty(curRating .. '.velocity.x', getProperty(curRating .. '.velocity.x') - getRandomInt(0, 10));
-   setGraphicSize(curRating, math.floor(getProperty(curRating .. '.width') * 0.5));
+   setGraphicSize(curRating, math.floor(getProperty(curRating .. '.width') * 0.7));
    addLuaSprite(curRating, true);
    
    runTimer(curRating .. 'timer', crochet * 0.001 / getProperty('playbackRate'));
    
    local separatedCombo = {};
-   table.insert(separatedCombo, math.floor(combo / 100) % 10);
-   table.insert(separatedCombo, math.floor(combo / 10) % 10);
-   table.insert(separatedCombo, combo % 10);
+   local comboSplit = stringSplit(getProperty('combo') .. '', '');
+   
+   if #comboSplit == 2 then
+      table.insert(comboSplit, 1, 0);
+   end
+   
+   for i = 1, #comboSplit do
+      theString = comboSplit[i];
+	  table.insert(separatedCombo, tonumber(theString));
+   end
+   
    local daLoop = 0;
    for i = 1, #separatedCombo do
       local curCombo = style .. 'num' .. separatedCombo[i];

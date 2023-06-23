@@ -1,8 +1,10 @@
 function onCreatePost()
+   addHaxeLibrary('Std');
    for i = 0, getProperty('unspawnNotes.length') - 1 do
       if getPropertyFromGroup('unspawnNotes', i, 'noteType') == 'Shape Note' then
 	     setPropertyFromGroup('unspawnNotes', i, 'texture', 'NOTE_assets_Shape');
 		 setPropertyFromGroup('unspawnNotes', i, 'blockHit', true); 
+		 setPropertyFromGroup('unspawnNotes', i, 'offsetX', 19); 
 	  end
    end
 end

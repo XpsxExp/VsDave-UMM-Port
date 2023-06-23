@@ -1,0 +1,4 @@
+Camera does a shaky shake.
+
+Value 1: What cam.
+Value 2: Intensity, duration.

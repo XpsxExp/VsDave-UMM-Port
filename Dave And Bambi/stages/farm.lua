@@ -43,6 +43,11 @@ function onCreatePost()
    
    makeBackgroundSprite('cornFence2', 'backgrounds/farm/cornFence2', 1100, 200, 1, 1);
    
+   if string.lower(songName) == 'splitathon' then
+      makeBackgroundSprite('picnicTowel', 'backgrounds/farm/picnic_towel_thing', 1050, 650, 1, 1);
+	  table.insert(stageTags, 'picnicTowel');
+   end
+   
    if getRandomInt(0, 1000) == 0 then
       makeBackgroundSprite('cornBag', 'backgrounds/farm/popeye', 1200, 550, 1, 1);
    else

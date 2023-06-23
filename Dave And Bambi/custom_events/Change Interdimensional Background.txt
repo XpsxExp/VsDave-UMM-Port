@@ -1,0 +1,8 @@
+Changes the stage in Interdimensional.
+
+Value 1: Change to;
+interdimensional-void,
+spike-void,
+darkspace,
+hexagon-void,
+nimbi-void

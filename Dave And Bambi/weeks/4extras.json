@@ -1,0 +1,59 @@
+{
+	"storyName": "",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"Bonus Song",
+			"dave",
+			[
+				15,
+				95,
+				255
+			]
+		],
+		[
+			"Mealie",
+			"bambi-loser",
+			[
+				37,
+				191,
+				55
+			]
+		],
+		[
+			"Indignancy",
+			"bambi-angey",
+			[
+				37,
+				191,
+				55
+			]
+		],
+		[
+			"Recursed",
+			"recurser",
+			[
+				44,
+				44,
+				44
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "extras"
+}

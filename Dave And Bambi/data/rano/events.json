@@ -1,0 +1,41 @@
+{
+	"song": {
+		"events": [
+			[
+				36923.0769230769,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.9",
+						""
+					]
+				]
+			],
+			[
+				46153.8461538462,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.7",
+						""
+					]
+				]
+			],
+			[
+				129230.769230769,
+				[
+					[
+						"Play Animation",
+						"sleepy",
+						"dad"
+					],
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-alt"
+					]
+				]
+			]
+		]
+	}
+}

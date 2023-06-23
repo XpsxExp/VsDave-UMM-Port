@@ -15,6 +15,7 @@ local stageVariant = '';
 local assetType = '';
 local skyType = '';
 function onCreatePost()
+   luaDebugMode = true;
    stageVariant = songStageVar[string.lower(songName)];
    --Stage variant.
    if stageVariant == 'house' then
@@ -36,20 +37,13 @@ function onCreatePost()
    
    makeBackgroundSprite('stageFront', 'backgrounds/dave-house/' .. assetType .. 'grass', -832, 505, 1, 1);
    
-   setPosition('dad', 50, 110);
-   setPosition('gf', 300, -60);
-   setPosition('boyfriend', 843, 270);
-   
    for i = 1, #stageTags do
       setProperty(stageTags[i] .. '.color', getColorFromHex(getBackgroundColor(stageVariant)));
    end
+   
    setProperty('dad.color', getColorFromHex(getBackgroundColor(stageVariant)));
    setProperty('gf.color', getColorFromHex(getBackgroundColor(stageVariant)));
    setProperty('boyfriend.color', getColorFromHex(getBackgroundColor(stageVariant)));
-   
-   runHaxeCode([[
-      game.moveCameraSection();
-   ]])
 end
 
 function makeBackgroundSprite(tag, path, x, y, xScroll, yScroll)
@@ -62,18 +56,6 @@ function setPosition(tag, x, y)
    runHaxeCode([[
      game.]] .. tag .. [[.setPosition(]] .. x .. [[, ]] .. y .. [[);
    ]]);
-end
-
-function onEvent(name, value1, value2)
-   if name == 'Change Character' then
-      setPosition('dad', 50, 110);
-      setPosition('gf', 300, -60);
-      setPosition('boyfriend', 843, 270);
-	  
-	  if value2 == 'dave-angey' then
-	     setPosition('dad', -90, -135);
-	  end
-   end
 end
 
 function getBackgroundColor(variant)

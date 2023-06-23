@@ -1,0 +1,91 @@
+{
+	"song": {
+		"events": [
+			[
+				32000,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.6",
+						""
+					],
+					[
+						"Cinematic Bars",
+						"3",
+						"400"
+					]
+				]
+			],
+			[
+				35200,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.4",
+						""
+					],
+					[
+						"Camera Flash",
+						"",
+						""
+					]
+				]
+			],
+			[
+				86400,
+				[
+					[
+						"Camera Flash",
+						"",
+						""
+					],
+					[
+						"Update Freeplay",
+						"bambi",
+						""
+					],
+					[
+						"",
+						"",
+						""
+					]
+				]
+			],
+			[
+				124800,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.6",
+						""
+					],
+					[
+						"Camera Flash",
+						"",
+						""
+					],
+					[
+						"Update Freeplay",
+						"tristan",
+						""
+					]
+				]
+			],
+			[
+				163200,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.4",
+						""
+					],
+					[
+						"Camera Flash",
+						"",
+						""
+					]
+				]
+			]
+		]
+	}
+}

@@ -1,0 +1,106 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				24,
+				2
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-40,
+				-13
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-15,
+				12
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				-6
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-17,
+				0
+			],
+			"anim": "sleepy",
+			"fps": 24,
+			"name": "sleepy0",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-64,
+				-6
+			],
+			"anim": "idle-alt",
+			"fps": 24,
+			"name": "sleeping0",
+			"indices": []
+		}
+	],
+	"taunts": [
+		"hey",
+		"idle",
+		"hey",
+		"hey"
+	],
+	"no_antialiasing": false,
+	"image": "characters/festival/dave_festival",
+	"position": [
+		-1,
+		120
+	],
+	"healthicon": "dave-festival",
+	"flip_x": false,
+	"healthbar_colors": [
+		25,
+		130,
+		0
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4.00000000000001,
+	"scale": 1
+}

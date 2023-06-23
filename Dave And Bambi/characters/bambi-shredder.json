@@ -1,0 +1,95 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "shredder idle0"
+		},
+		{
+			"offsets": [
+				40,
+				6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "shredder left0"
+		},
+		{
+			"offsets": [
+				27,
+				-27
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "shredder down0"
+		},
+		{
+			"offsets": [
+				1,
+				23
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "shredder up0"
+		},
+		{
+			"offsets": [
+				-71,
+				-1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "shredder right0"
+		},
+		{
+			"offsets": [
+				39,
+				18
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "takeout",
+			"indices": [],
+			"name": "shredder take out0"
+		}
+	],
+	"taunts": [
+		"hey",
+		"hey",
+		"hey",
+		"hey"
+	],
+	"no_antialiasing": false,
+	"image": "characters/festival/bambi_shredder",
+	"position": [
+		63,
+		433
+	],
+	"healthicon": "bambi",
+	"flip_x": false,
+	"healthbar_colors": [
+		37,
+		191,
+		55
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4.00000000000001,
+	"scale": 1
+}

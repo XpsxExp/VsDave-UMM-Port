@@ -1,8 +1,8 @@
 local animToPlay = {[0] = 'singLEFT-alt', [1] = 'phone', [2] = 'phone', [3] = 'singRIGHT-alt'};
+local normalAnims = {[0] = 'singLEFT', [1] = 'singDOWN', [2] = 'singUP', [3] = 'singRIGHT'};
 local noteDataToStrum = {[0] = 4, [1] = 5, [2] = 6, [3] = 7};
 
 function onCreatePost()
-   luaDebugMode = true;
    for i = 0, getProperty('unspawnNotes.length') - 1 do
       if getPropertyFromGroup('unspawnNotes', i, 'noteType') == 'Phone Note' or getPropertyFromGroup('unspawnNotes', i, 'noteType') == 'Phone Slam' then
 	     setPropertyFromGroup('unspawnNotes', i, 'texture', 'NOTE_phone');
@@ -19,6 +19,9 @@ function goodNoteHit(noteIndex, noteData, noteType, isSustainNote)
       if animationExists('boyfriend', 'dodge') then
 	     playAnim('boyfriend', 'dodge', true);
 		 setProperty('boyfriend.holdTimer', 0);
+	  else
+	     playAnim('boyfriend', normalAnims[noteData], true);
+		 setProperty('boyfriend.holdTimer', 0);
 	  end
 	  
 	  if animationExists('dad', 'throw') then
@@ -33,10 +36,18 @@ end
 
 function opponentNoteHit(noteIndex, noteData, noteType, isSustainNote)
    if noteType == 'Phone Note' then
-      playAnim('dad', animToPlay[noteData], true);
+      if animationExists('dad', animToPlay[noteData]) then
+         playAnim('dad', animToPlay[noteData], true);
+	  else
+	     playAnim('dad', normalAnims[noteData], true);
+	  end
 	  setProperty('dad.holdTimer', 0);
    elseif noteType == 'Phone Slam' then
-      playAnim('dad', 'phone', true);
+      if animationExists('dad', 'phone') then
+         playAnim('dad', 'phone', true);
+	  else
+	     playAnim('dad', normalAnims[noteData], true);
+	  end
 	  setProperty('dad.holdTimer', 0);
    end
 end

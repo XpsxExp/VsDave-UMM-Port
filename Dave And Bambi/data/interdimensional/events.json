@@ -1,0 +1,261 @@
+{
+	"song": {
+		"events": [
+			[
+				29842.1052631579,
+				[
+					[
+						"Camera Fade",
+						"camGame",
+						"FFFFFF,0.3,false"
+					]
+				]
+			],
+			[
+				30315.7894736842,
+				[
+					[
+						"Camera Fade",
+						"camGame",
+						"FFFFFF,0.5,true"
+					],
+					[
+						"Set Property",
+						"darken.alpha",
+						"0.4"
+					],
+					[
+						"Set Default Camera Zoom",
+						"0.2",
+						"add"
+					]
+				]
+			],
+			[
+				40421.0526315789,
+				[
+					[
+						"Set Default Camera Zoom",
+						"0.1",
+						"subtract"
+					]
+				]
+			],
+			[
+				50447.3684210526,
+				[
+					[
+						"Camera Flash",
+						"",
+						"0.3"
+					],
+					[
+						"Set Default Camera Zoom",
+						"0.1",
+						"subtract"
+					],
+					[
+						"Darken Screen",
+						"0",
+						"0.5"
+					],
+					[
+						"Change Interdimensional Background",
+						"spike-void",
+						""
+					]
+				]
+			],
+			[
+				90947.3684210525,
+				[
+					[
+						"Camera Flash",
+						"",
+						"0.3"
+					],
+					[
+						"Change Interdimensional Background",
+						"darkspace",
+						""
+					],
+					[
+						"Do Tween",
+						"color",
+						"bfBlue,boyfriend,0000FF,1,linear"
+					],
+					[
+						"Do Tween",
+						"color",
+						"gfBlue,gf,0000FF,1,linear"
+					],
+					[
+						"Do Tween",
+						"color",
+						"dadBlue,dad,0000FF,1,linear"
+					],
+					[
+						"Do Tween",
+						"color",
+						"ballBlue,ball,0000FF,1,linear"
+					],
+					[
+						"Do Tween",
+						"color",
+						"bimpeBlue,bimpe,0000FF,1,linear"
+					],
+					[
+						"Do Tween",
+						"color",
+						"maldoBlue,maldo,0000FF,1,linear"
+					],
+					[
+						"Do Tween",
+						"color",
+						"memeskidsBlue,memes kids,0000FF,1,linear"
+					],
+					[
+						"Do Tween",
+						"color",
+						"mukoBlue,muko,0000FF,1,linear"
+					],
+					[
+						"Do Tween",
+						"color",
+						"rubyBlue,ruby man,0000FF,1,linear"
+					],
+					[
+						"Do Tween",
+						"color",
+						"tristanBlue,tristan,0000FF,1,linear"
+					],
+					[
+						"Do Tween",
+						"color",
+						"bambiBlue,bambi,0000FF,1,linear"
+					]
+				]
+			],
+			[
+				111157.894736842,
+				[
+					[
+						"Camera Flash",
+						"",
+						"0.3"
+					],
+					[
+						"Change Interdimensional Background",
+						"hexagon-void",
+						""
+					],
+					[
+						"Do Tween",
+						"color",
+						"bfWhite,boyfriend,FFFFFF,1,linear"
+					],
+					[
+						"Do Tween",
+						"color",
+						"dadWhite,dad,FFFFFF,1,linear"
+					],
+					[
+						"Do Tween",
+						"color",
+						"gfWhite,gf,FFFFFF,1,linear"
+					],
+					[
+						"Do Tween",
+						"color",
+						"ballWhite,ball,FFFFFF,1,linear"
+					],
+					[
+						"Do Tween",
+						"color",
+						"bimpeWhite,bimpe,FFFFFF,1,linear"
+					],
+					[
+						"Do Tween",
+						"color",
+						"maldoWhite,maldo,FFFFFF,1,linear"
+					],
+					[
+						"Do Tween",
+						"color",
+						"memesKidsWhite,memes kids,FFFFFF,1,linear"
+					],
+					[
+						"Do Tween",
+						"color",
+						"mukoWhite,muko,FFFFFF,1,linear"
+					],
+					[
+						"Do Tween",
+						"color",
+						"rubyManWhite,ruby man,FFFFFF,1,linear"
+					],
+					[
+						"Do Tween",
+						"color",
+						"tristanWhite,tristan,FFFFFF,1,linear"
+					],
+					[
+						"Do Tween",
+						"color",
+						"bambiWhite,bambi,FFFFFF,1,linear"
+					]
+				]
+			],
+			[
+				141473.684210526,
+				[
+					[
+						"Camera Flash",
+						"",
+						"0.3"
+					],
+					[
+						"Change Interdimensional Background",
+						"nimbi-void",
+						""
+					]
+				]
+			],
+			[
+				171789.473684211,
+				[
+					[
+						"Camera Flash",
+						"",
+						"0.3"
+					],
+					[
+						"Change Interdimensional Background",
+						"interdimension-void",
+						""
+					]
+				]
+			],
+			[
+				227004.910805125,
+				[
+					[
+						"Camera Flash",
+						"",
+						"0.3"
+					],
+					[
+						"Interdimensional End",
+						"",
+						""
+					],
+					[
+						"Change Character",
+						"dad",
+						"dave-festival"
+					]
+				]
+			]
+		]
+	}
+}

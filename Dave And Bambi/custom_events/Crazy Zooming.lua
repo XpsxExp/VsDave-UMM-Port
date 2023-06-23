@@ -2,13 +2,18 @@ local crazyZooming = false;
 
 function onEvent(name, value1)
    if name == 'Crazy Zooming' then
-      if getPropertyFromClass('ClientPrefs', 'camZooms') then
-         setPropertyFromClass('ClientPrefs', 'camZooms', false);
-	     crazyZooming = true;
-      elseif not getPropertyFromClass('ClientPrefs', 'camZooms') then
-         setPropertyFromClass('ClientPrefs', 'camZooms', true);
-	     crazyZooming = false;
-      end
+      if value1 == '' then
+         if getPropertyFromClass('ClientPrefs', 'camZooms') then
+            setPropertyFromClass('ClientPrefs', 'camZooms', false);
+	        crazyZooming = true;
+         elseif not getPropertyFromClass('ClientPrefs', 'camZooms') then
+            setPropertyFromClass('ClientPrefs', 'camZooms', true);
+	        crazyZooming = false;
+         end
+	  else
+	     local toBool = {['true'] = true, ['false'] = false};
+		 crazyZooming = toBool[value1];
+	  end
    end
 end
 

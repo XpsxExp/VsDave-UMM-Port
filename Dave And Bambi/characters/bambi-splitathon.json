@@ -1,0 +1,106 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				39,
+				-7
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "splitathon left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-36,
+				-25
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "splitathon down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-27,
+				41
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "splitathon up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-97,
+				3
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "splitathon right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-34,
+				6
+			],
+			"anim": "corn",
+			"fps": 24,
+			"name": "splitathon corn0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-36,
+				0
+			],
+			"anim": "confused",
+			"fps": 24,
+			"name": "splitathon idle 20",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "splitathon idle0",
+			"indices": []
+		}
+	],
+	"taunts": [
+		"hey",
+		"hey",
+		"hey",
+		"hey"
+	],
+	"no_antialiasing": false,
+	"image": "characters/splitathon/Splitathon_Bambi",
+	"position": [
+		40,
+		427
+	],
+	"healthicon": "bambi",
+	"flip_x": false,
+	"healthbar_colors": [
+		37,
+		191,
+		55
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4.00000000000001,
+	"scale": 1
+}

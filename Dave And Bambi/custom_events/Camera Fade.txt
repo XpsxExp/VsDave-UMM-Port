@@ -1,0 +1,5 @@
+Fades the camera.
+
+Value 1: Target camera.
+Value 2: Color, Duration, Is forced.
+Must be separated by commas.

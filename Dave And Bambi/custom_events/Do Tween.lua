@@ -15,7 +15,7 @@ local tweensTable = {
       doTweenZoom(tostring(tag), tostring(var), tonumber(value), tonumber(duration), tostring(ease));
    end,
    ['color'] = function(tag, var, value, duration, ease)
-      doTweenColor(tostring(tag), tostring(var), tonumber(value), tonumber(duration), tostring(ease));
+      doTweenColor(tostring(tag), tostring(var), tostring(value), tonumber(duration), tostring(ease));
    end,
    ['number'] = function(tag, var, value, duration, ease)
       runHaxeCode([[
@@ -25,10 +25,6 @@ local tweensTable = {
 	  ]]);
    end
 }
-
-function onCreate()
-   luaDebugMode = true;
-end
 
 function onEvent(name, value1, value2)
    if name == 'Do Tween' then
